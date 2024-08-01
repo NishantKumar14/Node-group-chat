@@ -25,4 +25,5 @@ io.sockets.on('connection', function(socket) {
 
 const server = http.listen(4096, function() {
     console.log('listening on *:4096');
+    console.log('localhost:4096 on the browser.');
 });
